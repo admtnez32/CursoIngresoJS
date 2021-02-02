@@ -4,11 +4,14 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	//declaracion y asignacion
-	var dato = prompt("ingrese un dato");
+	//declaracion
+	var dato;
+
+		//asignacion
+		dato = prompt("ingrese un dato");
 	
-		//mostrar
-		txtIdNombre.value = dato;
+			//mostrar
+			txtIdNombre.value = dato;
 
 	
 }

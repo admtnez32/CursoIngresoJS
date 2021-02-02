@@ -2,15 +2,20 @@
 function mostrar()
 {
 	//Declaracion y asignacion de variables
-	var ancho = prompt("Ingrese ancho");
-	var largo = prompt("Ingrese largo");
-	var perimetro = ancho*2+largo*2;
+	var ancho;
+	var largo;
+	var perimetro;
 
-		//Parseo las variables
-		parseInt(ancho);
-		parseInt(largo);
+		//Asignacion y parseo
+		ancho = prompt("Ingrese ancho (cm)");
+			parseInt(ancho);
+
+		largo = prompt("Ingrese largo (cm)");
+			parseInt(largo);
+
+		perimetro = ancho*2+largo*2;
 	
 			//Mostrar
-			alert("El perímetro es: "+perimetro);
+			alert("El perímetro es: "+perimetro+" cm");
 
 }

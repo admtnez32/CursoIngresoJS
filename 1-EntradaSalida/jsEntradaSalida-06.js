@@ -4,12 +4,17 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	//Declaracion y asignacion 
-	var uno = txtIdNumeroUno.value;
-	var dos = txtIdNumeroDos.value;
-	var suma = parseInt(uno)+parseInt(dos) //ParseInt cambia dato a enteros y así poder operarlos
+	//Declaracion 
+	var uno;
+	var dos;
+	var suma;
 
-		//Mostrar
-		alert("la suma es: "+suma);
+		//asignacion
+		uno = txtIdNumeroUno.value;
+		dos = txtIdNumeroDos.value;
+	 	suma = parseInt(uno)+parseInt(dos) //ParseInt cambia dato a enteros y así poder operarlos
+
+			//Mostrar
+			alert("la suma es: "+suma);
 }
 
