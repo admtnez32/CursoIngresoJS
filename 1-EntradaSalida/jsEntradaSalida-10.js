@@ -9,11 +9,16 @@ function mostrarAumento()
 	var importe;
 	var descuento;
 	var resultado;
+	var importeParseado
 
 		//Asignacion
 		importe = txtIdImporte.value;
 		descuento = 0.75;
-		resultado = parseInt(importe)*descuento;
+		resultado = importe*descuento;
+
+			//Parseo
+			importeParseado = parseInt(importe);
+
 
 			//Mostrar
 			txtIdResultado.value = resultado;

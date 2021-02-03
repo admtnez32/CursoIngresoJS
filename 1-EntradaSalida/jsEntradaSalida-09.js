@@ -9,12 +9,16 @@ function mostrarAumento()
 	var aumento;
 	var sueldo;
 	var resultado;
+	var sueldoParseado;
 
 		//Asignacion
 		aumento = 1.1;
 		sueldo = txtIdSueldo.value;
-		resultado = parseInt(sueldo)*aumento;
+		resultado = sueldo*aumento;
 
-			//Mostrar
-			txtIdResultado.value=resultado;
+			//Parseo
+			sueldoParseado = parseInt(sueldo)
+
+				//Mostrar
+				txtIdResultado.value=resultado;
 }
