@@ -5,18 +5,21 @@ function mostrar()
 	var descuento;
 	var final;
 	var mensaje="Precio final con descuento aplicado: $";
+	var precioParseado;
+	var descuentoParseado;
 
 		//Asignacion y parseo
 		precio = prompt("Inserte el precio");
-			parseInt(precio);
+			precioParseado = parseInt(precio);
 
 		descuento = prompt("Inserte el descuento (%)");
-			parseInt(descuento);
+			descuentoParseado = parseInt(descuento);
 
-		final = precio-(precio*descuento/100);
+			//Operacion
+			final = precioParseado-(precioParseado*descuentoParseado/100);
 
-			//Mostrar
-			alert(mensaje+final);
+				//Mostrar
+				alert(mensaje+final);
 
 
 }

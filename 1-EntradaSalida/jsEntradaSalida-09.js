@@ -6,19 +6,21 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 	//Declaracion y asignacion
-	var aumento;
+	var aumento = 10;
 	var sueldo;
 	var resultado;
 	var sueldoParseado;
 
 		//Asignacion
-		aumento = 1.1;
 		sueldo = txtIdSueldo.value;
-		resultado = sueldo*aumento;
+		
 
 			//Parseo
-			sueldoParseado = parseInt(sueldo)
+			sueldoParseado = parseInt(sueldo);
 
-				//Mostrar
-				txtIdResultado.value=resultado;
+				//Operacion
+				resultado = (sueldoParseado*aumento/100)+sueldoParseado;
+
+					//Mostrar
+					txtIdResultado.value=resultado;
 }

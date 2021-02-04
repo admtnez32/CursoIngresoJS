@@ -7,19 +7,20 @@ function mostrarAumento()
 {
 	//Declaracion
 	var importe;
-	var descuento;
+	var descuento = 25;
 	var resultado;
-	var importeParseado
+	var importeParseado;
 
 		//Asignacion
 		importe = txtIdImporte.value;
-		descuento = 0.75;
-		resultado = importe*descuento;
-
+		
 			//Parseo
 			importeParseado = parseInt(importe);
 
 
-			//Mostrar
-			txtIdResultado.value = resultado;
+				//Operacion
+				resultado = importeParseado-(importeParseado*descuento/100);
+
+					//Mostrar
+					txtIdResultado.value = resultado;
 }
