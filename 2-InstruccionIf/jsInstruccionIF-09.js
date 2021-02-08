@@ -1,6 +1,17 @@
+/*
+Enunciado:
+Al presionar el Botón, mostrar un número Random del 1 al 10 inclusive
+*/
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	//Declaracion
+	var numero;
+
+		//Asignacion
+		numero = Math.floor(Math.random()*11);
+		
+
+			alert(numero);
 
 }//FIN DE LA FUNCIÓN
