@@ -15,19 +15,19 @@ function mostrar()
 		nota = Math.floor(Math.random()*11);
 
 			//Validacion
-			if(nota<9)
+			if(nota>8)
+			{
+				alert("EXCELENTE. Nota: "+nota);
+			}
+			else
 			{
 				if(nota>3)
 				{
-					alert("APROBÓ.")
-				}else{
-
-					alert("Vamos, la próxima se puede.")
+					alert("APROBÓ. Nota: "+nota)
 				}
-			}else{
-
-				alert("EXCELENTE.")
+				else
+				{
+					alert("Vamos, la próxima se puede. Nota: "+nota);
+				}
 			}
-
-
 }//FIN DE LA FUNCIÓN

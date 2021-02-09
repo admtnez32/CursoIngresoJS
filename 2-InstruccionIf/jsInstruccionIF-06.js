@@ -9,20 +9,19 @@ function mostrar()
 		edadParseado = parseInt(edad);
 
 			//Validacion
-			if(edadParseado<18)
+			if(edadParseado>17)
+			{
+				alert("Es mayor de edad");
+			}
+			else
 			{
 				if(edadParseado<13)
 				{
-					alert("Es un niño")
-				
-				}else{
-
-					alert("Es un adolescente")
-					 }
-
-			}else{
-
-				alert("Es un adulto")
-				 }
-
+					alert("Es menor de edad");
+				}
+				else
+				{
+					alert("Es adolescente");
+				}
+			}				
 }//FIN DE LA FUNCIÓN
