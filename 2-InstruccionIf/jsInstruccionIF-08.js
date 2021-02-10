@@ -18,7 +18,7 @@ function mostrar()
 			//Validacion
 			if(edadParseado>17 && estado == "Soltero")
 			{
-				alert("Es soltero y no es menor")
+				alert("Es soltero y no es menor");
 			}
 
 }//FIN DE LA FUNCIÓN

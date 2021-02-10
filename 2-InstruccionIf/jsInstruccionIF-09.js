@@ -9,9 +9,14 @@ function mostrar()
 	var numero;
 
 		//Asignacion
-		numero = Math.floor(Math.random()*11);
-		
+		numero = Math.floor(Math.random()*101);
 
-			alert(numero);
+			//Validacion
+			if(numero <11 && numero > 0)
+			{
+				alert(numero);
+			}
+
+			
 
 }//FIN DE LA FUNCIÓN
