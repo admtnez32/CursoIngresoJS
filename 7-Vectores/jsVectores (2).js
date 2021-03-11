@@ -1,6 +1,15 @@
 function mostrar()
 {
+	var arrayNombres = ["Alexis","Facu","Mari","Davi","Valen"];
 
+		for(var i=0; i<5; i++)
+		{
+			document.write(arrayNombres[i]+"<br>");
+		}
+}
+
+
+/*
 	var miArray = new Array();
 
 	miArray[0]="Juan";
@@ -20,6 +29,6 @@ document.write("El contenido del vector es: <br>");
 
 
 
+*/
 
-
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN

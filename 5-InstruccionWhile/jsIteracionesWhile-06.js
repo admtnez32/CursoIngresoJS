@@ -4,8 +4,17 @@ function mostrar()
 	var acumulador;
 	var numeroIngresado;
 
-	contador=0;
-	acumulador=0;
+		contador=0;
+		acumulador=0;
+
+			while(contador < 5)
+			{
+				numeroIngresado = parseInt(prompt("ingrese un numero"));
+
+				acumulador = acumulador + numeroIngresado;
+
+				contador = contador + 1;
+			}
 	
 	
 	txtIdSuma.value=acumulador;

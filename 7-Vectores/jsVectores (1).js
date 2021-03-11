@@ -1,5 +1,19 @@
 function mostrar()
 {
+	var arrayNumeros = [2,4,6,8,10,12,14,16,18,20];
+
+	for(var i=0; i<10; i++)
+		{
+			document.write(arrayNumeros[i]+"<br>");
+		}	
+}
+
+
+
+
+
+/*function mostrar()
+{
 
 	var miArray = new Array();
 
@@ -26,4 +40,4 @@ document.write("El contenido del vector es: <br>");
 
 
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN*/
